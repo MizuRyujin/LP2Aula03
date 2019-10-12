@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PlayerManager2
+namespace PlayerManager4
 {
     class Program
     {
@@ -33,7 +33,9 @@ namespace PlayerManager2
             Console.WriteLine();
 
             Console.WriteLine("Organized list:");
-            GetPlayersWithScoreGreaterThan(plrs, rnd.Next(25, 101));
+            Console.WriteLine(GetPlayersWithScoreGreaterThan(plrs, rnd.Next(25, 101)));
+
+            
         }
 
         // Method to randomly select one of three names

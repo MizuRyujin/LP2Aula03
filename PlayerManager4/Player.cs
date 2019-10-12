@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace PlayerManager2
+namespace PlayerManager4
 {
     class Player : IHasScore, IComparable<IHasScore>
     {

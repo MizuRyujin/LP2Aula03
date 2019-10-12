@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreExercise", "MoreExercis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyInterfaces", "MyInterfaces\MyInterfaces.csproj", "{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{0C63F3FF-47D5-4D73-8970-9443E723AFF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{0C63F3FF-47D5-4D73-8970-9443E723AFF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager2", "PlayerManager2\PlayerManager2.csproj", "{C53F8A64-1723-449C-A8F8-3421815FC05A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerManager2", "PlayerManager2\PlayerManager2.csproj", "{C53F8A64-1723-449C-A8F8-3421815FC05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager4", "PlayerManager4\PlayerManager4.csproj", "{E5CF8414-8F60-42BA-BCBF-060868B88EFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CF8414-8F60-42BA-BCBF-060868B88EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CF8414-8F60-42BA-BCBF-060868B88EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CF8414-8F60-42BA-BCBF-060868B88EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CF8414-8F60-42BA-BCBF-060868B88EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
