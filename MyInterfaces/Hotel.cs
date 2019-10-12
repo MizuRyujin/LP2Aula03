@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
+﻿using System.Diagnostics.CodeAnalysis;
 
 namespace MyInterfaces
 {
@@ -12,13 +9,30 @@ namespace MyInterfaces
         public int Score { get; set; }
         public string Description { get; }
         public int NRooms { get; }
+        public int NFloors { get; }
 
         // Constructor
-        public Hotel(string name, string description, int nRooms)
+        public Hotel(string name, string description, int nRooms, 
+            int nFloors, int score)
         {
             Name = name;
             Description = description;
             NRooms = nRooms;
+            NFloors = nFloors;
+
+            if (score < 0)
+            {
+                Score = 0;
+            }
+            else if (score > 5)
+            {
+                Score = 5;
+            }
+
+            else
+            {
+                Score = score;
+            }
         }
 
         public override string ToString()
@@ -27,14 +41,14 @@ namespace MyInterfaces
                 $" it is a {Description} with {NRooms} rooms";
         }
 
-        public int CompareTo([AllowNull] IHasScore other)
-        {
-            throw new NotImplementedException();
-        }
-
         public bool Equals([AllowNull] IHasScore other)
         {
-            throw new NotImplementedException();
+            if (other == null || other.Score != Score)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

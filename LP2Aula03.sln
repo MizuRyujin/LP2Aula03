@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreExercise", "MoreExercise\MoreExercise.csproj", "{8D0B6879-A2CD-4055-A2D1-C0A7BEBC278F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInterfaces", "MyInterfaces\MyInterfaces.csproj", "{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyInterfaces", "MyInterfaces\MyInterfaces.csproj", "{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{0C63F3FF-47D5-4D73-8970-9443E723AFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager2", "PlayerManager2\PlayerManager2.csproj", "{C53F8A64-1723-449C-A8F8-3421815FC05A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D28B78D-5516-49B5-BD21-8B54D4D0BEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C63F3FF-47D5-4D73-8970-9443E723AFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C63F3FF-47D5-4D73-8970-9443E723AFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C63F3FF-47D5-4D73-8970-9443E723AFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C63F3FF-47D5-4D73-8970-9443E723AFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53F8A64-1723-449C-A8F8-3421815FC05A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

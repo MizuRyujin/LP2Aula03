@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyInterfaces
+namespace PlayerManager2
 {
     interface IHasScore : IEquatable<IHasScore>
     {

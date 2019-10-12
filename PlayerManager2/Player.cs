@@ -1,8 +1,9 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
-namespace MyInterfaces
+namespace PlayerManager2
 {
-    class Player : IHasScore
+    class Player : IHasScore, IComparable<Player>
     {
         // Class properties
         public int Score { get; set; }
@@ -37,6 +38,21 @@ namespace MyInterfaces
             }
 
             return true;
+        }
+
+        public int CompareTo([AllowNull] Player other)
+        {
+            if (other == null || other.Score < Score)
+            {
+                return -1;
+            }
+
+            if (other.Score > Score)
+            {
+                return 1;
+            }
+
+            return 0;
         }
     }
 }
